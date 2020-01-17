@@ -75,6 +75,8 @@ p {
 .NavigationBar{
     display: flex;
     justify-content: space-evenly;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .links{
@@ -135,10 +137,40 @@ a:link{
     justify-content: center;
 }
 
-.box .box1{
-    background: red;
+#box1.box{
+    background: red; 
 }
 
+#box2.box{
+    background:gold; 
+}
+
+#box3.box{
+    background: cadetblue
+}
+
+#box4.box{
+    background: coral;
+}
+
+#box5.box{
+    background: crimson
+}
+#box6.box{
+    background: forestgreen;
+}
+#box7.box{
+    background: darkorchid;
+}
+#box8.box{
+    background: hotpink; 
+}
+#box9.box{
+    background:indigo; 
+}
+#box10.box{
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -216,6 +248,7 @@ footer nav a {
 button{
     border-radius: 10%;
     margin-top: 2%;
+    border: 2px solid black;
 }
 
 /*Bottom Section*/
@@ -228,4 +261,5 @@ button{
 
 .FooterNav a{
     color: white;
+    width: 60%;
 }
