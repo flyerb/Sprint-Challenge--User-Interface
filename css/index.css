@@ -219,13 +219,16 @@ footer nav a {
 }
 .TopPicture{
     text-align: center;
+    padding-top: 4%;
    
 }
 
 /* Top Content */
 
 .About{
-    padding: 2%;
+    padding-right: 8%;
+    padding-left:8%;
+    padding-top: 4%;
 }
 
 /*Middle Content*/
