@@ -266,3 +266,59 @@ button{
     color: white;
     width: 60%;
 }
+
+
+/* Contact Page*/
+
+.containerBody{
+   margin: 2% 18% 0%;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 14%;
+}
+
+.smallContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 4% 0%;
+}
+
+.label1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    
+}
+
+.box1{
+    width:40%;
+    height: 8vh;
+}
+
+.box2{
+    width:80%;
+    height:100px;
+}
+
+.contactButton{
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contactButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.FooterNav{
+    margin: 4% 20% 0%;
+}
